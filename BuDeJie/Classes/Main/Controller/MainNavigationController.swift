@@ -36,6 +36,9 @@ class MainNavigationController: UINavigationController {
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         if childViewControllers.count > 0 {
+            
+            viewController.hidesBottomBarWhenPushed = true
+            
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem.backItem(target: self, action: #selector(back))
         }
         

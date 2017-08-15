@@ -10,4 +10,15 @@ import UIKit
 
 extension UITextField {
     
+    var palceholdColor: UIColor? {
+        get {
+            return objc_getAssociatedObject(self, "pColor") as? UIColor
+        }
+        
+        set {
+            objc_setAssociatedObject(self, "pColor", newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            setValue(newValue, forKeyPath: "placeholderLabel.textColor")
+        }
+    }
+    
 }

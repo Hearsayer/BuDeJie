@@ -22,6 +22,12 @@
 		878EA7CC1EF2580300D09579 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EA7CB1EF2580300D09579 /* MeViewController.swift */; };
 		878EA7CE1EF2583D00D09579 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EA7CD1EF2583D00D09579 /* NewViewController.swift */; };
 		878EA7D01EF2585C00D09579 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EA7CF1EF2585C00D09579 /* PublishViewController.swift */; };
+		87AFF7C31F41540F006255DE /* SquareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFF7C21F41540F006255DE /* SquareItem.swift */; };
+		87AFF7C61F415550006255DE /* SquareItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFF7C41F415550006255DE /* SquareItemCell.swift */; };
+		87AFF7C71F415550006255DE /* SquareItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87AFF7C51F415550006255DE /* SquareItemCell.xib */; };
+		87AFF7C91F417549006255DE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFF7C81F417549006255DE /* UIColor+Extension.swift */; };
+		87AFF7CB1F41766D006255DE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFF7CA1F41766D006255DE /* WebViewController.swift */; };
+		87AFF7D31F419DC9006255DE /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFF7D21F419DC9006255DE /* FileManager+Extension.swift */; };
 		87BF7CB81EF3B8B500DDD3D2 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BF7CB71EF3B8B500DDD3D2 /* UIBarButtonItem+Extension.swift */; };
 		87DBBCCC1F35A9E900724945 /* UITextField+Placehold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBBCCB1F35A9E900724945 /* UITextField+Placehold.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +72,12 @@
 		878EA7CB1EF2580300D09579 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		878EA7CD1EF2583D00D09579 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		878EA7CF1EF2585C00D09579 /* PublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		87AFF7C21F41540F006255DE /* SquareItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareItem.swift; sourceTree = "<group>"; };
+		87AFF7C41F415550006255DE /* SquareItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareItemCell.swift; sourceTree = "<group>"; };
+		87AFF7C51F415550006255DE /* SquareItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareItemCell.xib; sourceTree = "<group>"; };
+		87AFF7C81F417549006255DE /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		87AFF7CA1F41766D006255DE /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		87AFF7D21F419DC9006255DE /* FileManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
 		87BF7CB71EF3B8B500DDD3D2 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		87DBBCCB1F35A9E900724945 /* UITextField+Placehold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Placehold.swift"; sourceTree = "<group>"; };
 		A72F453F171B0EB2E8FD1801 /* Pods-BuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJie/Pods-BuDeJie.release.xcconfig"; sourceTree = "<group>"; };
@@ -326,6 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				878EA7CB1EF2580300D09579 /* MeViewController.swift */,
+				87AFF7CA1F41766D006255DE /* WebViewController.swift */,
 				8766C5741F28382900211087 /* SettingViewController.swift */,
 			);
 			path = Contreoller;
@@ -334,6 +347,7 @@
 		878EA7C41EF257B500D09579 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				87AFF7C21F41540F006255DE /* SquareItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,6 +355,8 @@
 		878EA7C51EF257B500D09579 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				87AFF7C41F415550006255DE /* SquareItemCell.swift */,
+				87AFF7C51F415550006255DE /* SquareItemCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -372,6 +388,8 @@
 			children = (
 				87BF7CB71EF3B8B500DDD3D2 /* UIBarButtonItem+Extension.swift */,
 				87DBBCCB1F35A9E900724945 /* UITextField+Placehold.swift */,
+				87AFF7C81F417549006255DE /* UIColor+Extension.swift */,
+				87AFF7D21F419DC9006255DE /* FileManager+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -491,6 +509,7 @@
 				876516691EF24A230077AB58 /* LaunchScreen.storyboard in Resources */,
 				876516661EF24A230077AB58 /* Assets.xcassets in Resources */,
 				876516641EF24A230077AB58 /* Main.storyboard in Resources */,
+				87AFF7C71F415550006255DE /* SquareItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,17 +582,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AFF7C61F415550006255DE /* SquareItemCell.swift in Sources */,
 				878EA7CC1EF2580300D09579 /* MeViewController.swift in Sources */,
 				87DBBCCC1F35A9E900724945 /* UITextField+Placehold.swift in Sources */,
 				878EA7B11EF2566000D09579 /* MainNavigationController.swift in Sources */,
 				878EA7CE1EF2583D00D09579 /* NewViewController.swift in Sources */,
 				878EA7AF1EF2563F00D09579 /* MainTabBarController.swift in Sources */,
 				878EA7D01EF2585C00D09579 /* PublishViewController.swift in Sources */,
+				87AFF7C91F417549006255DE /* UIColor+Extension.swift in Sources */,
 				8766C5751F28382900211087 /* SettingViewController.swift in Sources */,
+				87AFF7D31F419DC9006255DE /* FileManager+Extension.swift in Sources */,
 				8765165F1EF24A230077AB58 /* AppDelegate.swift in Sources */,
 				878EA7CA1EF257E400D09579 /* FriendTrendViewController.swift in Sources */,
 				87BF7CB81EF3B8B500DDD3D2 /* UIBarButtonItem+Extension.swift in Sources */,
 				878EA7BC1EF2577600D09579 /* EssenceViewController.swift in Sources */,
+				87AFF7CB1F41766D006255DE /* WebViewController.swift in Sources */,
+				87AFF7C31F41540F006255DE /* SquareItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
