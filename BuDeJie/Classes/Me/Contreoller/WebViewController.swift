@@ -19,12 +19,14 @@ class WebViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        setupui()
         
-        guard let url = URL(string: urlString) else { return }
+        view.backgroundColor = UIColor.randomColor
         
-        webView.load(URLRequest(url: url))
+//        setupui()
+//        
+//        guard let url = URL(string: urlString) else { return }
+//        
+//        webView.load(URLRequest(url: url))
     }
     
     private func setupui() {

@@ -22,10 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.makeKeyAndVisible()
         
-//        print(FileManager.default.fileSize(atPath: "/Users/he/Desktop/123"))
-        
-//        FileManager.default.deleteFile(atPath: "/Users/he/Desktop/123")
-        
         return true
     }
 
